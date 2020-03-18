@@ -14,3 +14,25 @@
     
 }
 
+.button:active{/*Efeito de piscar*/
+background-color: #cccc;
+
+}
+
+.button.double{
+    grid-column: span 2;/*aumenta em 2 colunas*/
+}
+
+.button.triple{
+    grid-column: span 3;
+}
+
+.button.operation {
+    background-color: #fa8231;
+    color: #FFFF;
+}
+
+
+.button.operation:active{
+    background-color: #fa8231cc;
+}
